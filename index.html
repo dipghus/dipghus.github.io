@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AKDIVI - Digital Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;500&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;500&display=swap'); </style>
+    <script src="https://kit.fontawesome.com/21e6ee8472.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary p-2" id="nav-container">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">AKDIVI</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-3 mb-lg-0 justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" id="s1" href="#1">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="s2" href="#2">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="s3" href="#3">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="s4" href="#4">Clients</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+    <!-- JUMBOTRON -->
+    <section id="1" class="container-fluid">
+      <div class=" mb-5 bg-light rounded-3">
+          <div class="card-text">
+              <img src="image/banner.jpg" class="card-img img-fluid" alt="">
+              <div class="card-img-overlay py-5" id="text-banner">
+                  <h1 class="display-6 fw-bold" id="text">ACCELERATE NEEDS WITH OLD OR MODERN WAYS</h1>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!-- END JUMBOTRON -->
+
+    <!-- PILAR -->
+    <section id="2">
+
+      <div class="d-flex justify-content-between mb-4">
+          <div id="pilarName">
+              <h2 class="ps-2 pb-2" >Why choose us?</h2>
+              <p class="mt-4 ms-2">We providing creative and result-driven solutions for brands to speed up their necessity.</p>
+              <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#about-btn">
+                More About Us..
+              </button>
+  
+              <!-- Modal -->
+              <div class="modal fade" id="about-btn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">About Us</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div>
+              <div class="row m-3">
+                  <div class="col-sm-6 mb-3 mb-sm-0 mt-1">
+                    <div class="card border-0">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fa-regular fa-handshake fa-xl"></i><br> Integrity & Trustworthy</h5>
+                        <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card border-0">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fa-solid fa-circle-check"></i><br> Responsible</h5>
+                        <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              
+              <div class="row m-3">
+                  <div class="col-sm-6 mb-3 mb-sm-0 mt-1">
+                    <div class="card border-0">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fa-regular fa-user-group"></i><br> Friendly & Adaptive</h5>
+                        <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card border-0">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fa-solid fa-user-tie"></i><br> Profesional</h5>
+                        <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+
+    <!-- END PILLAR -->
+
+    <!-- PRODUCT -->
+    <section id="3">
+
+      <div class="d-flex justify-content-center">
+        <h2 class="text-center m-3 p-3" id="product-text">What we sell</h2>
+      </div>
+      <div id="product">
+  
+        <div class="m-5">
+          <div class="card mb-3 border-0" style="width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-4" id="product-img">
+                <img src="image/user-3.jpg" class="img-fluid rounded-3" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#pilar1">
+                    View More..
+                  </button>
+    
+                  <!-- Modal -->
+                  <div class="modal fade" id="pilar1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Integrity & Trustworthy</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="m-5">
+          <div class="card mb-3 border-0" style="width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#pilar1">
+                    View More..
+                  </button>
+    
+                  <!-- Modal -->
+                  <div class="modal fade" id="pilar1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Integrity & Trustworthy</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4" id="product-img">
+                <img src="image/user-3.jpg" class="img-fluid rounded-3" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="m-5">
+          <div class="card mb-3 border-0" style="width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-4" id="product-img">
+                <img src="image/user-3.jpg" class="img-fluid rounded-3" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#pilar1">
+                    View More..
+                  </button>
+    
+                  <!-- Modal -->
+                  <div class="modal fade" id="pilar1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Integrity & Trustworthy</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="m-5">
+          <div class="card mb-3 border-0" style="width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#pilar1">
+                    View More..
+                  </button>
+    
+                  <!-- Modal -->
+                  <div class="modal fade" id="pilar1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Integrity & Trustworthy</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4" id="product-img">
+                <img src="image/user-3.jpg" class="img-fluid rounded-3" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CLIENT -->
+    <section id="4">
+
+      <div class="d-flex justify-content-center">
+        <h2 class="text-center m-3 p-3" id="product-text">Our Clients</h2>
+      </div>
+  
+      <div class="card-group p-5">
+        <div class="card border-0 align-items-center">
+          <img src="image/user-3.jpg" class="card-img-top rounded-circle" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Nama Client</h5>
+            <p class="card-text text-center">Testimoni produk / produk yang digunakan</p>
+            <p class="card-text text-center"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card border-0 align-items-center">
+          <img src="image/user-3.jpg" class="card-img-top rounded-circle" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Nama Client</h5>
+            <p class="card-text text-center">Testimoni produk / produk yang digunakan</p>
+            <p class="card-text text-center"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card border-0 align-items-center">
+          <img src="image/user-3.jpg" class="card-img-top rounded-circle" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Nama Client</h5>
+            <p class="card-text text-center">Testimoni produk / produk yang digunakan</p>
+            <p class="card-text text-center"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-center text-white">
+      <div class="container p-4 pb-0">
+        <section class="mb-4">
+          <a class="btn btn-outline-light btn-floating m-1 border-0" href="#!" role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <a class="btn btn-outline-light btn-floating m-1 border-0" href="#!" role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <a class="btn btn-outline-light btn-floating m-1 border-0" href="#!" role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+
+          <a class="btn btn-outline-light btn-floating m-1 border-0" href="#!" role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <a class="btn btn-outline-light btn-floating m-1 border-0" href="#!" role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+    
+          <a class="btn btn-outline-light btn-floating m-1 border-0" href="#!" role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+      </div>
+    
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/" id="footer-link">PT. AKDIVI INDONESIA</a>
+      </div>
+    </footer>
+    <a id="toTop" href="#1"><div class="to-top"></div></a>
+</body>
+</html>
